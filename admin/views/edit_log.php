@@ -10,7 +10,8 @@ $isdraft = $hide == 'y' ? true : false;
         <script>
             tinymce.init({
                 selector: "textarea",
-                plugins: "a11ychecker, advcode, linkchecker, media mediaembed, powerpaste"
+                plugins: "a11ychecker, advcode, linkchecker, media mediaembed, powerpaste, link",
+                toolbar: " undo redo | fontselect styleselect | underline strikethrough bold italic | alignleft aligncenter alignright alignjustify | outdent indent link unlink ",
             });
         </script>
 <div class=containertitle><b><?php if ($isdraft) :?>编辑草稿<?php else:?>编辑文章<?php endif;?></b><span id="msg_2"></span></div><div id="msg"></div>

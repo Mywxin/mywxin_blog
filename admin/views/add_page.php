@@ -8,8 +8,8 @@
         <script>
             tinymce.init({
                 selector: "textarea",
-                plugins: "a11ychecker, advcode, linkchecker, media mediaembed, powerpaste",
-                toolbar: "underline"
+                plugins: "a11ychecker, advcode, linkchecker, media mediaembed, powerpaste, link",
+                toolbar: " undo redo | fontselect styleselect | underline strikethrough bold italic | alignleft aligncenter alignright alignjustify | outdent indent link unlink ",
             });
         </script>
 <div class=containertitle><b>新建页面</b><span id="msg_2"></span></div>
