@@ -1,0 +1,1 @@
+<?php exit;//a:2:{i:0;a:3:{s:4:"link";s:5:"emlog";s:3:"url";s:20:"http://www.emlog.net";s:3:"des";s:17:"emlog官方主页";}i:1;a:3:{s:4:"link";s:6:"google";s:3:"url";s:21:"http://www.google.com";s:3:"des";s:6:"谷歌";}}
