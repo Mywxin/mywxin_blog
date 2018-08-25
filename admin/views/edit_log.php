@@ -10,8 +10,20 @@ $isdraft = $hide == 'y' ? true : false;
         <script>
             tinymce.init({
                 selector: "textarea",
-                plugins: "a11ychecker, advcode, linkchecker, media mediaembed, powerpaste, link",
-                toolbar: " undo redo | fontselect styleselect | underline strikethrough bold italic | alignleft aligncenter alignright alignjustify | outdent indent link unlink ",
+                plugins: "a11ychecker, advcode, linkchecker, media mediaembed, powerpaste, link, codesample",
+                codesample_languages: [
+                    {text: 'HTML/XML', value: 'markup'},
+                    {text: 'JavaScript', value: 'javascript'},
+                    {text: 'CSS', value: 'css'},
+                    {text: 'PHP', value: 'php'},
+                    {text: 'Ruby', value: 'ruby'},
+                    {text: 'Python', value: 'python'},
+                    {text: 'Java', value: 'java'},
+                    {text: 'C', value: 'c'},
+                    {text: 'C#', value: 'csharp'},
+                    {text: 'C++', value: 'cpp'}
+                ],
+                toolbar: " codesample, undo redo | fontselect styleselect | underline strikethrough bold italic | alignleft aligncenter alignright alignjustify | outdent indent link unlink ",
             });
         </script>
 <div class=containertitle><b><?php if ($isdraft) :?>编辑草稿<?php else:?>编辑文章<?php endif;?></b><span id="msg_2"></span></div><div id="msg"></div>

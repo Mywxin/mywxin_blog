@@ -1,15 +1,26 @@
 <?php if(!defined('EMLOG_ROOT')) {exit('error!');}?>
-<!--
-<script charset="utf-8" src="./editor/kindeditor.js?v=<?php echo Option::EMLOG_VERSION; ?>"></script>
-<script charset="utf-8" src="./editor/lang/zh_CN.js?v=<?php echo Option::EMLOG_VERSION; ?>"></script>
+<!--<script charset="utf-8" src="./editor/kindeditor.js?v=<?php echo Option::EMLOG_VERSION; ?>"></script>
+//<script charset="utf-8" src="./editor/lang/zh_CN.js?v=<?php echo Option::EMLOG_VERSION; ?>"></script>
 -->
 <script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=t37k92ne6ta3fcm71c8q5fxzy8fcu6iim0p7kwii36x4v7kj">
         </script>
         <script>
             tinymce.init({
                 selector: "textarea",
-                plugins: "a11ychecker, advcode, linkchecker, media mediaembed, powerpaste, link",
-                toolbar: " undo redo | fontselect styleselect | underline strikethrough bold italic | alignleft aligncenter alignright alignjustify | outdent indent link unlink ",
+                plugins: "a11ychecker, advcode, linkchecker, media mediaembed, powerpaste, link, codesample",
+                codesample_languages: [
+                    {text: 'HTML/XML', value: 'markup'},
+                    {text: 'JavaScript', value: 'javascript'},
+                    {text: 'CSS', value: 'css'},
+                    {text: 'PHP', value: 'php'},
+                    {text: 'Ruby', value: 'ruby'},
+                    {text: 'Python', value: 'python'},
+                    {text: 'Java', value: 'java'},
+                    {text: 'C', value: 'c'},
+                    {text: 'C#', value: 'csharp'},
+                    {text: 'C++', value: 'cpp'}
+                ],
+                toolbar: " codesample, undo redo | fontselect styleselect | underline strikethrough bold italic | alignleft aligncenter alignright alignjustify | outdent indent link unlink ",
             });
         </script>
 <div class=containertitle><b>编辑页面</b><span id="msg_2"></span></div>

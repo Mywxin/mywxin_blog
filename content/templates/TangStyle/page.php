@@ -1,9 +1,10 @@
-<?php 
+<?php
 /*
 * 自建页面模板
 */
 if(!defined('EMLOG_ROOT')) {exit('error!');} 
 ?>
+
 <div id="main">
 <div id="article">
 	<h1><?php echo $log_title; ?></h1>

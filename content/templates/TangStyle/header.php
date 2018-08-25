@@ -23,8 +23,11 @@ require_once View::getView('module');
 <link rel="alternate" type="application/rss+xml" title="RSS"  href="<?php echo BLOG_URL; ?>rss.php" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="<?php echo TEMPLATE_URL; ?>style.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo TEMPLATE_URL; ?>prism.css" rel="stylesheet" type="text/css" />
 <script src="<?php echo TEMPLATE_URL; ?>jquery.min.js"></script>
 <script src="<?php echo TEMPLATE_URL; ?>theme.js"></script>
+<script src="<?php echo TEMPLATE_URL; ?>prism.js"></script>
+
 <script src="<?php echo BLOG_URL; ?>include/lib/js/common_tpl.js"></script>
 <?php doAction('index_head'); ?>
 </head>
