@@ -7,3 +7,12 @@ counter.dat
 ## DIR                  ##
 ##############################
 content/cache/*
+.idea/*
+content/cache/tags.php
+content/cache/sta.php
+content/cache/sort.php
+content/cache/record.php
+content/cache/newlog.php
+content/cache/logtags.php
+content/cache/logsort.php
+content/cache/logsort.php
