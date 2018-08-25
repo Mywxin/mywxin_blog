@@ -6,4 +6,4 @@ counter.dat
 ##############################
 ## DIR                  ##
 ##############################
-content/cache/
+content/cache/*
