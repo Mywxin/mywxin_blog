@@ -1,0 +1,60 @@
+/*#################
+#beefs CSS设置  #
+#################*/
+body {
+	background-color: Black;
+	color:red;
+}
+.news{
+  margin: auto;
+  margin-top: 3%;
+  height: 10%;
+  width: 80%;
+  border-style:solid;
+  border-width:1px;
+  background-color: ;
+  text-align: center;
+
+}
+.terminal
+{
+   position:relative;
+   top:20px;
+   margin: auto;
+   width:80%;
+   height:auto;
+   background:black;
+   color: white;
+   font-size:16px;
+   font-family:courier;
+   border-style:solid;
+   border-width:1px;
+   border-bottom:none;
+}
+.input_t
+{
+   position:relative;
+   top:20px;
+   margin: auto;
+   width:80%;
+   height:auto;
+   background:black;
+   color: white;
+   font-size:16px;
+   font-family:courier;
+   border-style:solid;
+   border-width:1px;
+   border-top:none;
+}
+input
+{
+   width:100%;
+   height:auto;
+   background:black;
+   color: white;
+   font-size:16px;
+   font-family:courier;
+   border-style:solid;
+   border-width:0px;
+   outline:none;
+}
