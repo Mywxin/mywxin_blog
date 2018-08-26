@@ -30,7 +30,7 @@
 <div id="post">
 <div>
     <!--<label for="title" id="title_label">输入页面标题</label>-->
-    <input type="text" maxlength="200" name="title" id="title" placeholder='输入文章标题'/>
+    <input type="text" maxlength="200" name="title" id="title" placeholder='输入文章标题' autocomplete="off" />
     <input name="date" id="date" type="hidden" value="" >
 </div>
 <div id="post_bar">

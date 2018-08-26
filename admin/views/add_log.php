@@ -30,7 +30,7 @@
 <div id="post">
 <div>
     <!--<label for="title" id="title_label">输入文章标题</label>-->
-    <input type="text" maxlength="200" name="title" id="title" placeholder='输入文章标题'/>
+    <input type="text" maxlength="200" name="title" id="title" placeholder='输入文章标题' autocomplete="off"/>
 </div>
 <div id="post_bar">
 	<div>
@@ -48,7 +48,7 @@
 </div>
 <div style="margin:10px 0px 5px 0px;">
     <!--<label for="tag" id="tag_label">文章标签，逗号或空格分隔，过多的标签会影响系统运行效率</label>-->
-    <input name="tag" id="tag" maxlength="200" placeholder='文章标签，逗号或空格分隔，过多的标签会影响系统运行效率'/>
+    <input name="tag" id="tag" maxlength="200" placeholder='文章标签，逗号或空格分隔，过多的标签会影响系统运行效率' autocomplete="off" />
     <span style="color:#2A9DDB;cursor:pointer;margin-right: 40px;"><a href="javascript:displayToggle('tagbox', 0);">已有标签+</a></span>
     <select name="sort" id="sort" style="width:130px;">
         <option value="-1">选择分类...</option>

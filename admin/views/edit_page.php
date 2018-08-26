@@ -29,7 +29,7 @@
 <div id="post">
 <div>
     <!-- <label for="title" id="title_label">输入页面标题</label> -->
-    <input type="text" maxlength="200" name="title" id="title" value="<?php echo $title; ?>" />
+    <input type="text" maxlength="200" name="title" id="title" value="<?php echo $title; ?>" autocomplete="off" />
 </div>
 <div id="post_bar">
     <div>
