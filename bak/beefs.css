@@ -28,42 +28,48 @@ body {
    font-size:16px;
    font-family:courier;
    border-style:solid;
-   border-width:0.5px;
-   /*border-bottom:none;*/
+   border-width:1px;
+   border-bottom:none;
 }
 .input_t
 {
    position:relative;
+   float:left;
    top:20px;
    margin: auto;
-   width:80%;
+   width:72.2%;
    height:auto;
    background:black;
-   color: white;
-   border-style:solid;
-   border-width:0.5px;
-}
-.lable_t
-{
-   position:relative;
-   top:20px;
-   margin: auto;
-   width:80%;
-   height:auto;
-   background:red;
    color: white;
    font-size:16px;
    font-family:courier;
    border-style:solid;
-   border-width:0.5px;
+   border-width:1px;
+   border-top:none;
+   border-left:none;
 }
-
-input
+.input_dolat_t
 {
    position:relative;
-   width:80%;
+   float:left;
+   margin: auto;
+   margin-left: 10%;
+   top:20px;
+   width: 115px;
+   background:black;
+   color: white;
+   font-size:16px;
+   font-family:courier;
+   border-style:solid;
+   border-width:1px;
+   border-right:none;
+   border-top:none;
+}
+.input_dolar
+{
+   width:100%;
    height:auto;
-   background-color: transparent;
+   background:black;
    color: white;
    font-size:16px;
    font-family:courier;
@@ -71,15 +77,15 @@ input
    border-width:0px;
    outline:none;
 }
-
-.requirements{
-  margin: auto;
-  position:relative;
-  top:30px;
-  height: 10%;
-  width: 80%;
-  border-style:solid;
-  border-width:1px;
-  background-color: ;
-  text-align: center;
+input
+{
+   width:100%;
+   height:auto;
+   background:black;
+   color: white;
+   font-size:16px;
+   font-family:courier;
+   border-style:solid;
+   border-width:0px;
+   outline:none;
 }

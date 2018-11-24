@@ -53,7 +53,7 @@
 	    {
 	    	//alert('已处理'+myXMLHttpRequest.responseText);
 	    	document.getElementById("terminal").innerHTML=myXMLHttpRequest.responseText;
-	    	$('input_test').value="[root@host~]";
+	    	$('input_test').value="";
 	    }
 	}
 
@@ -66,8 +66,7 @@
 <div class="news">
 <?php
 echo "
-<br>本页面将用于分享各种干货资源！<br>请拭目以待！<br>
-仅限于PDF书籍、电影资源，提供模糊搜索，直接返回路径"
+<br>本页面将用于分享各种干货资源！<br>请拭目以待！<br>"
 ?>
 </div>
 <div id = "terminal" class="terminal">
@@ -83,6 +82,14 @@ Copyright (c) 2018 mwxin.com All Rights Reserved.<br>
 [root@host~]Access Is Granted！<br>
 //欢迎访问mwxin.com<br>
 [root@host~]<br>";
+$b = "
+[root@host~]Waiting...<br>
+[root@host~]正在查询<br>
+[root@host~]查询OK<br>
+[root@host~]资源类型：百度网盘<br>
+[root@host~]密码：NXhgydh<br>
+[root@host~]URL：www.baidu.com<br>
+[root@host~]<br>";
 echo $a;
 //echo '<pre>';print_r($_POS}
 //if ((isset($_POST['input_test'])) && $_POST['input_test'] != "")
@@ -93,17 +100,13 @@ echo $a;
 //}
 ?>
 </div>
-<div class="lable_t">
-<label>请在以下输入命令：</label>
+<div class="input_dolat_t">
+<input class = "input_dolar" type="text" value="[root@host~]" readonly="readonly">
 </div>
 <div class="input_t">
-<input id='input_test' type="text" name="input_test" value="[root@host~]"  autocomplete="off" onkeyup="refresh()">
+<input id='input_test' type="text" name="input_test" value="" autocomplete="off" onkeyup="refresh()">
 </div>
-<div class="requirements">
-<li>电影 英雄 720P 已解决</li>
-<li>电影 无间道 1080P 已解决</li>
-<li>电影 亮剑 1080P 已解决</li>
-</div>
+
 </text>
 </body>
 </html>
